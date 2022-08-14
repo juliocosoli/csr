@@ -1,0 +1,136 @@
+
+
+html{
+    /*margin auto centra la pagina completa*/
+    margin: auto;
+    /*tamaño de la pagina en la ventana del navegador*/
+    width: 80%;
+    padding: 5px;
+    /*color de las letras*/
+    color: rgb(15, 14, 14);
+}
+
+/*este DIV lo hice para poder pintar el area de trabajo y identificar mejor*/
+
+.content{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    /*background:whitesmoke;*/
+
+}
+.titulo{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.titulotexto{
+    float: left;
+    width: 100%;
+}
+.tituloimg{
+    
+    float: left;
+    width: 25%;
+}
+/* Lo copie de https://www.w3schools.com/ */
+header, nav, aside, section, article, footer{
+    margin: 10px 0;
+    /*padding: 20px 0;*/
+    text-align: center;
+    font-size: 18px;
+    /* text-transform: uppercase;*/
+    font-weight: bold;
+    /*font-family: 'Tahoma';*/
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+
+
+h1{
+    display: block;
+    /*background-color: rgb(124, 209, 154);*/
+}
+.logo {
+    float: right; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(70, 246, 143);
+  }
+ 
+
+  li{
+    
+    display:inline;
+  }
+  
+  li a {
+    float: left;
+    display: block;
+    color: rgb(18, 17, 17);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    /* text-transform: uppercase;
+    font-weight: bold;*/
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: rgb(10, 10, 10);
+    color: antiquewhite;
+  }
+
+aside{
+    float: left;
+    width: 25%;
+    background: #edd89d;
+    margin: 5px;
+}
+
+aside div{
+    margin: 5px;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+section{
+    float: left;
+    width: 75%;
+    height: 100%;
+    /*background: #a79825;*/
+    margin: 5px;
+}
+
+article{
+    /*margin: 10px auto;*/
+    background: #e5dbc2;
+    width: 90%;
+}
+
+article img{
+    width: 250px;
+    float: left;
+    padding: 5px;
+    border-radius: 10%;   
+}
+
+article .left{
+    width: 250px;
+    float: right;
+    padding: 5px;
+    border-radius: 10%;   
+}
+
+footer{
+    
+    height: 150px;
+}
