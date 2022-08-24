@@ -9,6 +9,7 @@ html{
     /*color de las letras*/
     color: rgb(15, 14, 14);
 }
+body{background-image: url(https://st2.depositphotos.com/4784945/7302/v/950/depositphotos_73025945-stock-illustration-colorful-retro-roller-skates.jpg);}
 
 /*este DIV lo hice para poder pintar el area de trabajo y identificar mejor*/
 
@@ -46,6 +47,7 @@ header, nav, aside, section, article, footer{
     /*font-family: 'Tahoma';*/
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
 
 
 
