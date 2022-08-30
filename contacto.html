@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <!--Fuentes de google-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+
     <!--Titulo del sitio para la barra del navegador-->
     <title>Crecer sobre ruedas</title>
    
@@ -14,74 +19,88 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+ <!-- Inicia Header con menu de navegacion-->
+ <header>
 
-    <header id="header">
-        <div class="titulo">
-            <div class="titulotexto">
-                <h1> Crecer sobre Ruedas ... MIRA ESTO...</h1>
-            
-                 <h6>Formación de atletas en Patinaje Artístico</h6>
-                    
-                
-            </div>
-            <div class="tituloimg">
-                <img class="logo"  src="images/images03.png" alt="">
-            </div>
+    <div class="padre">
+
+        <div class="hijotitulo">
+            <h1> Crecer sobre Ruedas</h1>
+        
+             <h5>Formación de atletas en Patinaje Artístico</h5> 
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">inicio</a></li>
-                <li><a href="quienes somos.html">quienes somos</a></li>
-                <li><a href="horarios.html">horario</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-    <h2>Formulario de Contacto</h2>
-    <form action="" method="post">
-        <p>
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" required>
-        </p>
-        <p>
-            <label for="apeliido">Apellido</label>
-            <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" required>
-        </p>
-    
-        <p>
-            <label for="edad">Edad</label>
-            <input type="number" name="edad" id="edad" min="0" max="70">
-        </p>
-        <p>
-            <label for="email">email</label>
-            <input type="email" name="email" id="email" placeholder="ingrese su email">
-        </p>
-        <p>
-            <label for="text"></label>
-            <textarea name="text" id="text" cols="30" rows="10" placeholder="Escriba su consulta aqui"></textarea>
-        </p>
-        <h3>¿Donde nos conocio?</h3>
-            
-        <p>
-        <input type="checkbox" name="donde" value="Instagram"> Instagram
-        <input type="checkbox" name="donde" value="Facebook"> Facebook
-        <input type="checkbox" name="donde" value="Pagina Web"> Pagina web
-        <input type="checkbox" name="donde" value="Publiciada Barrial"> Publicidad barrial
-        <input type="checkbox" name="donde" value="Otros"> Otros
-        </p>
-        <br>
 
-        <input type="submit" value="Enviar">
-        <button type="reset">Borrar</button>
+        
+    </div>
+
+    <!--Inicia el menu de navegacion-->
+    
+</header>
+<nav> 
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes somos.html">Quienes somos</a></li>
+        <li><a href="horarios.html">Horario</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+</nav>
+<aside>
+
+</aside>
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="" method="post">
+            <p>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="ingrese su nombre" required>
+            </p>
+            <p>
+                <label for="apeliido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="ingrese su apellido" required>
+            </p>
+        
+            <p>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" id="edad" min="0" max="70">
+            </p>
+            <p>
+                <label for="email">email</label>
+                <input type="email" name="email" id="email" placeholder="ingrese su email">
+            </p>
+            <p>
+                <label for="text"></label>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Escriba su consulta aqui"></textarea>
+            </p>
+            <h3>¿Donde nos conocio?</h3>
+                
+            <p>
+            <input type="checkbox" name="donde" value="Instagram"> Instagram
+            <input type="checkbox" name="donde" value="Facebook"> Facebook
+            <input type="checkbox" name="donde" value="Pagina Web"> Pagina web
+            <input type="checkbox" name="donde" value="Publiciada Barrial"> Publicidad barrial
+            <input type="checkbox" name="donde" value="Otros"> Otros
+            </p>
+            <br>
+
+            <input type="submit" value="Enviar">
+            <button type="reset">Borrar</button>
 
 
         </form>
-        <h2>Ubicacion</h2>
-
+        
+    </section>
         <section>
+            <h2>Ubicacion</h2>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0609986697054!2d-58.01811980000001!3d-34.90491869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dd834dd3514b%3A0x55cdf729eb2eb469!2sCentro%20de%20Fomento%20Social%20y%20Deportivo%20Jos%C3%A9%20Hern%C3%A1ndez!5e0!3m2!1ses-419!2sar!4v1661284856443!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
-       
+    <!-- inicio footer -->
+    <footer>
+        <br>
+        <p>
+            Derechos reservados @2020 </p>
+        <img src="images/images02.png" alt="">
+        <br>
+    </footer>   
     
 
 </body>

@@ -1,15 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 
-
-html{
-    /*margin auto centra la pagina completa*/
-    margin: auto;
-    /*tamaño de la pagina en la ventana del navegador*/
-    width: 80%;
-    padding: 5px;
-    /*color de las letras*/
-    color: rgb(15, 14, 14);
-    background-image: url(https://st2.depositphotos.com/4784945/7302/v/950/depositphotos_73025945-stock-illustration-colorful-retro-roller-skates.jpg);
 }
+
+
+
 body{
     background-color: white;
     -webkit-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
@@ -17,88 +14,75 @@ body{
     box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
 }
 /*Inicia los DIV del header para maquetar los titulos y la imagen a la derecha*/
-.titulo{
-    display:flex;
+.padre{
+    padding: 20px;
+    display: block;
     width: 100%;
-    height: 100%;
-    font-weight: bold;
+    
     
 }
 
-.titulotexto{
-    inline-size: auto;
-    float: left;
-    width: 100%;
-}
-.tituloimg{
-    
-    float: left;
-    width: 25%;
-}
-
-.logo {
-    float: right; 
-}
 
 /* Lo copie de https://www.w3schools.com/ */
-header, nav, aside, section, article, footer{
-    margin: 10px 10px;
+header, aside, section, article, footer{
+    
     /*padding: 20px 0;*/
     text-align: center;
-    font-size: 18px;
+    font-size: 30px;
     /* text-transform: uppercase;*/
     font-weight: bold;
     /*font-family: 'Tahoma';*/
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    /*font-family: "Comic Sans MS", "Comic Sans", cursive;*/
+    font-family: 'Quattrocento Sans', sans-serif;
+    
 }
 
 
-
-
 h1{
+    font-family: 'Codystar', cursive;
+    font-size: 64px;
+    padding: 20px;
     display: block;
     /*background-color: rgb(124, 209, 154);*/
 }
 
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+nav{
     background-color: rgb(70, 246, 143);
-  }
- 
-
-  li{
-    
-    display:inline;
-  }
-  
-  li a {
-    float: left;
-    display: block;
-    color: rgb(18, 17, 17);
+    height: 64px;
     text-align: center;
-    padding: 14px 16px;
+    -webkit-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
+    -moz-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
+    box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
+    
+    
+}
+ul{
+    padding-top: 13px;
+}
+
+li{
+    display: inline; 
+}
+
+li a{
+    color: black;
     text-decoration: none;
-    font-size: 15px;
-    /* text-transform: uppercase;
-    font-weight: bold;*/
-  }
-  
-  /* Cambiamos el color al pasar mous sobre el NAV */
-  li a:hover {
-    background-color: rgb(10, 10, 10);
-    color: antiquewhite;
-  }
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Quattrocento Sans', sans-serif;
+   
+}
+
+li a:hover{
+    
+    background-color: rgb(237, 121, 58);
+    color: white;
+}
 
 section{
-    /*float: right;*/
+    
     width: 100%;
-    /*height: 200px;*/
-    /*background: #96BC6C;*/
+    
 }
 
 footer{
