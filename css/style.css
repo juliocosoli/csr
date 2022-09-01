@@ -21,7 +21,7 @@ body{
     height: 500px;
    text-align: center;
     position: relative; 
-    background-image: url(/images/1024x400.png);
+    background-image: url("/images/1024x400.png");
     margin-bottom: 20px;
 }
 
