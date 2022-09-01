@@ -53,6 +53,8 @@ nav{
     -webkit-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
     -moz-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
     box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
+    position: fixed;
+    width: 100%;
     
     
 }
