@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
 
 }
 
@@ -21,15 +22,29 @@ body{
     height: 500px;
    text-align: center;
     position: relative; 
-    background-image: url("/images/1024x400.png");
+    background-image: url("/images/a1024x400.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
     margin-bottom: 20px;
+
 }
 
 .hijotitulo{
     position:absolute;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.05em #333;
     z-index: 100;
     top:50%;
     left: 50%;
+    background: rgba(230,115,95,1);
+    background: -moz-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(68%, rgba(241,213,167,0.44)), color-stop(100%, rgba(200,249,204,0.17)));
+    background: -webkit-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
+    background: -o-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
+    background: -ms-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
+    background: linear-gradient(to right,rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6735f', endColorstr='#c8f9cc', GradientType=1 );
+    
 }
 
 
@@ -54,13 +69,17 @@ h1{
     font-size: 64px;
     padding: 20px;
     display: block;
+    text-align: center;
     /*background-color: rgb(124, 209, 154);*/
+}
+h2{
+    
+    padding: 20px;
 }
 
 nav{
-    background-color: rgb(75, 219, 132);
-    height: 64px;
-    text-align: center;
+    background-color: #52B788;
+    height: 56px;
     -webkit-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
     -moz-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
     box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
@@ -74,7 +93,24 @@ nav{
     
 }
 ul{
-    padding-top: 13px;
+    padding-top: 15px;
+    
+}
+
+#csr{
+    color: black;
+    font-size: 35px;
+}
+
+.menuizquierda{
+    position: absolute;
+    left: 25px;
+
+}
+.menuderecha{
+    position: absolute;
+    
+    right: 15px;
 }
 
 li{
@@ -84,7 +120,7 @@ li{
 li a{
     color: black;
     text-decoration: none;
-    padding: 20px;
+    padding: 15px;
     font-size: 22px;
     font-family: 'Quattrocento Sans', sans-serif;
    
@@ -92,14 +128,30 @@ li a{
 
 li a:hover{
     
-    background-color: rgb(237, 121, 58);
+    background-color:#F09E56;
     color: white;
 }
 
-section{
-    
+article{
+   height: 600px;
     width: 100%;
+  
     
+}
+
+.p{
+    text-align: left;
+}
+
+
+.imgderecha{
+    float: left;
+    right: 20px;
+}
+
+.textizquierda{
+    
+    left: 20px;
 }
 
 footer{
