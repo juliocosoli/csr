@@ -1,9 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    text-align: justify;
     box-sizing: border-box;
     font-family: 'Quattrocento Sans', sans-serif;
-
 }
 
 
@@ -52,7 +52,7 @@ header, aside, section, article, footer{
     
     /*padding: 20px 0;*/
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     /* text-transform: uppercase;*/
     font-weight: bold;
     /*font-family: 'Tahoma';*/
@@ -72,7 +72,9 @@ h1{
 }
 h2{
     
-    padding: 20px;
+padding: 20px;
+    
+text-align: center;
 }
 
 nav{
@@ -131,20 +133,23 @@ li a:hover{
 }
 
 article{
-   
-    width: 100%;
-  
     
+/* display: block; */
+    
+padding: 50px;
 }
 
 .p{
     text-align: left;
 }
-
+.flex{
+    display: flex;
+    margin-top: 20px;
+}
 
 .imgderecha{
-    
-    right: 20px;
+    margin-right: 3.5em;
+    align-self: center;
 }
 
 .textizquierda{
@@ -157,10 +162,5 @@ footer{
     
     width: 100%;
 }
-
-
-
-
-
 
 
