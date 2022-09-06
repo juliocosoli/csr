@@ -9,33 +9,31 @@
 
 
 body{
-    background-color: white;
-    -webkit-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
-    -moz-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
-    box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
+    width: 100%;
+    
+   
 }
 /*Inicia los DIV del header para maquetar los titulos y la imagen a la derecha*/
 .padre{
-   
-    display: block;
+    position: relative;
     width: 100%;
-    height: 500px;
-   text-align: center;
-    position: relative; 
+    height: 400px;
+    text-align: center;
     background-image: url("/images/a1024x400.png");
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center; 
     margin-bottom: 20px;
-
 }
 
 .hijotitulo{
-    position:absolute;
+    position: absolute;
     color: white;
     text-shadow: 0.1em 0.1em 0.05em #333;
     z-index: 100;
-    top:50%;
-    left: 50%;
+    top:20%;
+    left: 20%;
+    margin: auto auto;
     background: rgba(230,115,95,1);
     background: -moz-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
     background: -webkit-gradient(left top, right top, color-stop(68%, rgba(241,213,167,0.44)), color-stop(100%, rgba(200,249,204,0.17)));
@@ -133,7 +131,7 @@ li a:hover{
 }
 
 article{
-   height: 600px;
+   
     width: 100%;
   
     
@@ -145,7 +143,7 @@ article{
 
 
 .imgderecha{
-    float: left;
+    
     right: 20px;
 }
 
@@ -155,6 +153,14 @@ article{
 }
 
 footer{
+    margin-bottom: 0;
     
-    height: 150px;
+    width: 100%;
 }
+
+
+
+
+
+
+
