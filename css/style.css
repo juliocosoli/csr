@@ -6,7 +6,9 @@
     font-family: 'Quattrocento Sans', sans-serif;
 }
 
-
+:root{
+    font-size: 22px;
+}
 
 body{
     width: 100%;
@@ -22,6 +24,7 @@ body{
     background-image: url("/images/a1024x400.png");
     background-repeat: no-repeat;
     background-size: 100%;
+   
     background-position: center; 
     margin-bottom: 20px;
 }
@@ -31,8 +34,8 @@ body{
     color: white;
     text-shadow: 0.1em 0.1em 0.05em #333;
     z-index: 100;
-    top:20%;
-    left: 20%;
+    position: relative;
+    
     margin: auto auto;
     background: rgba(230,115,95,1);
     background: -moz-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
@@ -135,21 +138,30 @@ li a:hover{
 article{
     
 /* display: block; */
-    
-padding: 50px;
+padding: 10%;
 }
 
-.p{
-    text-align: left;
+.text{
+    flex: 1;
+    margin-top: 1rem;
 }
 .flex{
+    justify-content: center;
+    align-items: center;
     display: flex;
-    margin-top: 20px;
+    padding: 10px;
 }
 
-.imgderecha{
-    margin-right: 3.5em;
+.img{
+    margin-right: 2em;
     align-self: center;
+    width: 600px;
+    height: 420px;
+}
+
+.color{
+    background-color: #D7F3CE;
+    width: 100%;
 }
 
 .textizquierda{
@@ -159,8 +171,10 @@ padding: 50px;
 
 footer{
     margin-bottom: 0;
-    
     width: 100%;
 }
 
+footer p{
+    text-align: center;
+}
 
