@@ -80,6 +80,11 @@ padding: 20px;
 text-align: center;
 }
 
+p{
+    margin-bottom: .5rem;
+   
+}
+
 nav{
     background-color: #52B788;
     height: 56px;
