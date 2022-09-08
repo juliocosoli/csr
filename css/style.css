@@ -183,3 +183,30 @@ footer p{
     text-align: center;
 }
 
+form {
+    /* Centrar el formulario en la página */
+    margin: 0 auto;
+    width: 50%;
+    /* Esquema del formulario */
+    padding: 1em;
+    border: 1px solid black;
+    border-radius: 1em;
+    font-size: medium;
+
+}
+
+form p {
+    list-style: none;
+    margin-top: 1em
+}
+
+.espaciocheck {
+    margin: 0.5em;
+}
+
+label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
