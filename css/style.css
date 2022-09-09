@@ -86,7 +86,8 @@ p{
 }
 
 nav{
-    background-color: #52B788;
+    background: rgb(84,78,194);
+    background: linear-gradient(90deg, rgba(84,78,194,1) 0%, rgba(171,255,125,1) 64%, rgba(122,232,255,1) 100%);;
     height: 56px;
     -webkit-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
     -moz-box-shadow: 10px 11px 23px 3px rgba(0,0,0,0.53);
@@ -135,8 +136,6 @@ li a{
 }
 
 li a:hover{
-    
-    background-color:#F09E56;
     color: white;
 }
 
@@ -178,6 +177,9 @@ footer{
     bottom: 0;
     margin-bottom: 0;
     width: 100%;
+    background: rgb(84,78,194);
+    background: linear-gradient(90deg, rgba(84,78,194,1) 0%, rgba(171,255,125,1) 64%, rgba(122,232,255,1) 100%);
+
 }
 
 footer p{
@@ -212,22 +214,20 @@ label {
     text-align: right;
 }
 
-.iconos {
-    display: inline-block;
-    align-items: center;
-    justify-items: center;
-    
-}
 
-/* Color logo facebook*/
+
+/* propiedades logo facebook*/
 .bxl-facebook-circle{
     color: darkblue;
+    margin: 0.5em;
 }
 
+/* propiedades logo instagram*/
 .bxl-instagram{
     color: #fff;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+    margin: 0.5em;
 
 }
