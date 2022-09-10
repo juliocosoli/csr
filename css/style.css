@@ -15,7 +15,7 @@ body{
     
    
 }
-/*Inicia los DIV del header para maquetar los titulos y la imagen a la derecha*/
+/*Inicia los DIV del header para maquetar los titulos y la imagen a la derecha
 .padre{
     position: relative;
     width: 100%;
@@ -27,16 +27,36 @@ body{
    
     background-position: center; 
     margin-bottom: 20px;
+}*/
+
+
+
+.contenedor-banner{
+    
+    min-height: 400px;
+
+    /*border-radius: 10px;*/
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+
+	background-size: cover;
+	background-position: center center;
+    background-image: url("/images/a1024x400.png");
+
+    display: flex;
+   
+    justify-content: center; 
 }
 
-.hijotitulo{
-    position: absolute;
+
+
+.banner-titulo{
     color: white;
+
     text-shadow: 0.1em 0.1em 0.05em #333;
-    z-index: 100;
-    position: relative;
-    
-    margin: auto auto;
+
     background: rgba(230,115,95,1);
     background: -moz-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
     background: -webkit-gradient(left top, right top, color-stop(68%, rgba(241,213,167,0.44)), color-stop(100%, rgba(200,249,204,0.17)));
@@ -45,6 +65,11 @@ body{
     background: -ms-linear-gradient(left, rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
     background: linear-gradient(to right,rgba(241,213,167,0.44) 68%, rgba(200,249,204,0.17) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6735f', endColorstr='#c8f9cc', GradientType=1 );
+
+    border-radius: 10px;
+	font-weight: bold;
+	position: relative;
+	overflow: hidden;
     
 }
 
@@ -159,14 +184,20 @@ padding: 10%;
 .img{
     margin-right: 2em;
     align-self: center;
-    width: 600px;
-    height: 420px;
+    width: 40%;
+    height: auto;
 }
 
 .color{
     background-color: #D7F3CE;
     width: 100%;
 }
+
+.white{
+    background-color: white;
+    width: 100%;
+}
+
 
 .textizquierda{
     
@@ -235,3 +266,77 @@ label {
     margin: 0.5em;
 
 }
+
+/*FLEX: colocar texto en la parte inferior*/
+.texto-inferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 100%;
+}
+
+/*FLEX: colocar imagen centrada*/
+
+.imagen-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+/*GRID: 4 filas 3 columnas para colocar imagen a derecha, centrada  y izquierda del texto */
+.contenedor{
+    display: grid;
+    grid-gap: 10px;
+    /*grid-template-columns: repeat(3, [col] 100% ) ;*/
+    /*grid-template-rows: repeat(4, [row] auto  );*/
+}
+.titulo-center{
+    
+    grid-column: col / span 3;
+    grid-row: row ;
+
+}
+.img-izquierda {
+    grid-column: col ;
+    grid-row: row 2;
+    align-items: center;
+  }
+
+.img-center {
+grid-column: col 1 ;
+grid-row: row 3 ;
+}
+
+.img-derecha {
+    grid-column: col 3 ;
+    grid-row: row 4 ;
+}
+
+
+.texto-derecha {
+    
+    
+    grid-column: col 2 / span 2 ;
+    grid-row: row 2;
+}
+
+.texto-center {
+    grid-column: col  / span 3 ;
+    grid-row: row 3 ;
+}
+
+.texto-izquierda {
+    grid-column: col  / span 2 ;
+    grid-row: row 4;
+}
+
+  /*FIN DEL GRID*/
+
+  /*IFRAME : pdf*/
+
+  .pdf{
+    width: 100%;
+    min-height: 500px;
+  }
+  
