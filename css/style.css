@@ -175,7 +175,6 @@ padding: 10%;
 
 footer{
     bottom: 0;
-    margin-bottom: 0;
     width: 100%;
     background: rgb(84,78,194);
     background: linear-gradient(90deg, rgba(84,78,194,1) 0%, rgba(171,255,125,1) 64%, rgba(122,232,255,1) 100%);
@@ -215,6 +214,11 @@ label {
 }
 
 
+.flexicon {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
 /* propiedades logo facebook*/
 .bxl-facebook-circle{
