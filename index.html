@@ -12,6 +12,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Quattrocento+Sans&display=swap" rel="stylesheet">
     
+    <!--Iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    
     
     <!--Titulo del sitio para la barra del navegador-->
     <title>Crecer sobre ruedas</title>
@@ -22,57 +26,75 @@
 <body>
     <!-- Inicia Header con menu de navegacion-->
     <header>
-        <nav> 
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="quienes somos.html">Quienes somos</a></li>
-                <li><a href="horarios.html">Horario</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-
-        <div class="padre">
+        
+        
+        
             
-            <div class="hijotitulo">
-                <h1> Crecer sobre Ruedas</h1>
-            
-                 <h5>Formación de atletas en Patinaje Artístico</h5> 
+            <div class="contenedor-banner">
+                <div class="contenedor-titulo">
+                    <h1 class="banner-titulo"> Crecer sobre Ruedas</h1>
+                </div>
             </div>
-
-            
-        </div>
+        
 
         <!--Inicia el menu de navegacion-->
         
     </header>
-    
+    <nav> 
+        <ul class="menuizquierda">
+            <li><samp id="csr">CsR</samp></li>
+        </ul>
+        <ul class="menuderecha">
+            <li ><a href="index.html">Inicio</a></li>
+            <li ><a href="quienes somos.html">Quienes somos</a></li>
+            <li ><a href="horarios.html">Horario</a></li>
+            <li ><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
     <aside>
     
     </aside>
     <section>
         <article>
-            <h2>Informacion destacada</h2>
-        
-            <img src="images/received_10154555618985373.jpeg" alt="patines">
-                <p>El Patinaje Artístico es una actividad deportiva que requiere alcanzar complejas destrezas derivadas de la técnica específica del patinaje.  Compromete al patinador a desarrollar en paralelo otras competencias propias de diferentes áreas: predominantemente la danza, pero en alta proporción la preparación corporal y musical.</p>  
-                <p>Contribuye, desde edades tempranas, a perfeccionar el equilibrio y la orientación espacial.  Además,  favorece la armonía corporal mejorando la coordinación, el ritmo, la agilidad y la movilidad articular.</p>
-                <p> deporte  ofrece dos perspectivas de desarrollo: la primera, de índole recreativa y la segunda, de alto rendimiento deportivo. 
-                En el campo recreativo, brinda la posibilidad de disfrutar de distintas propuestas sobre ruedas en las cuales se construyen las habilidades básicas y específicas; estas últimas, se constituyen, a su vez, en el basamento sobre el cual podrán desarrollarse las destrezas implicadas en el patinaje de alto nivel. </p> 
-            
+            <div class="contenedor">
+                <div class="titulo"><h2>Formación de atletas en Patinaje Artístico</h2></div>
+                <div class="flex">
+                    <img class="img" src="images/sentimiento.jpg" alt="patines">
+                    <div class="text">
+                        <p>
+                        El Patinaje Artístico es una actividad deportiva que requiere alcanzar complejas destrezas derivadas de la técnica específica del patinaje.  Compromete al patinador a desarrollar en paralelo otras competencias propias de diferentes áreas: predominantemente la danza, pero en alta proporción la preparación corporal y musical.
+                        Contribuye, desde edades tempranas, a perfeccionar el equilibrio y la orientación espacial.  Además,  favorece la armonía corporal mejorando la coordinación, el ritmo, la agilidad y la movilidad articular.
+                        deporte  ofrece dos perspectivas de desarrollo: la primera, de índole recreativa y la segunda, de alto rendimiento deportivo. <br>  
+                        En el campo recreativo, brinda la posibilidad de disfrutar de distintas propuestas sobre ruedas en las cuales se construyen las habilidades básicas y específicas; estas últimas, se constituyen, a su vez, en el basamento sobre el cual podrán desarrollarse las destrezas implicadas en el patinaje de alto nivel. 
+                        </p>
+                </div> 
+                </div>
+            </div>    
         </article>
-        
-        
-
-    
+        <article class="color">
+            <div class="contenedor">
+                <div class="titulo"><h2>Esto es un titulo</h2></div>
+                <div class="flex">
+                    <img class="img" src="images/IMG_20170701_144847.jpg" alt="no se que es">
+                    <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat repellat sunt excepturi voluptatum itaque earum cumque, velit vel iure ipsa porro! Quo deleniti debitis dolores molestias placeat. Dolores, provident laudantium.</div>
+                </div>
+            </div>
+        </article>
+       
     </section>
+    
     <!-- inicio footer -->
     <footer>
         <br>
         <p>
-            Derechos reservados @2020 </p>
-        <img src="images/images02.png" alt="">
-        <br>
-    </footer>
+            Derechos reservados @2020
+        </p> 
+        <div class="flexicon">
+        <i class='bx bxl-facebook-circle bx-sm'></i>
+        <i class='bx bxl-instagram bx-sm' ></i>
+        </div>
+        
+    </footer>   
 
 </body>
 
