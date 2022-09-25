@@ -1,0 +1,253 @@
+<!-- Comentamos todo para poder entendernos. 
+El documento lo inicie con !+(TAB) y se configura solo-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Fuentes de google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+    
+    <!--Iconos-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    
+    
+    
+    <!--Titulo del sitio para la barra del navegador-->
+    <title>Crecer sobre ruedas</title>
+    
+    <!--Cargamos un archivo style.css.  -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calendarioStyle.css">
+    <script src="js/javascript.js"></script>
+</head>
+<body> 
+        <!-- Inicia Header con menu de navegacion-->
+        <header>
+        
+        
+        
+            
+            <div class="contenedor-banner">
+                <div class="contenedor-titulo">
+                    <h1 class="banner-titulo"> Crecer sobre Ruedas</h1>
+                </div>
+            </div>
+        
+
+        <!--Inicia el menu de navegacion-->
+        
+    </header>
+    <nav> 
+        <ul class="menuizquierda">
+            <li><samp id="csr">CsR</samp></li>
+        </ul>
+        <ul class="menuderecha">
+            <li ><a href="index.html">Inicio</a></li>
+            <li ><a href="quienes_somos.html">Quienes somos</a></li>
+            <li ><a href="horarios.html">Horario</a></li>
+            <li ><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <aside>
+    
+    </aside>
+    <section class="calendario">
+        <div class="bubble bubble-two glassmorphism-effect"></div>
+        <div class="bubble bubble-three glassmorphism-effect"></div>
+        <div class="bubble bubble-four glassmorphism-effect"></div>
+        <div class="container glassmorphism-effect padding-box">
+            <section class="glassmorphism-effect padding-box">
+            <div class="title">
+                <p>Objetivos</p>
+                <p>Lo que quiero lograr</p>
+            </div>
+            <div class="goals" onmousedown="todosLosDias()" onmouseup="limpiar()">
+                <div class="glassmorphism-effect">
+                <img src="https://img.icons8.com/nolan/64/love-book.png" alt="libro"/>
+                </div>
+                <p>Libre</p>
+            </div>
+            <div class="goals" onmousedown="diaSabado()" onmouseup="limpiar()">
+                <div class="glassmorphism-effect">
+                <img src="https://img.icons8.com/nolan/64/dumbbell.png" alt="pesa"/>
+                </div>
+                <p>Preparación física</p>
+            </div>
+            <div class="goals" onmousedown="diaSabado()" onmouseup="limpiar()">
+                <div class="glassmorphism-effect">
+                <img src="https://img.icons8.com/nolan/64/time-management.png" alt="manejo del tiempo"/>
+                </div>
+                <p>Danza</p>
+            </div>
+            
+            </section>
+            <section class="main-content glassmorphism-effect padding-box">
+            <div class="title">
+                <p>Horario semanal</p>
+                <p></p>
+            </div>
+            <div>
+                <div>
+                    <p>Lunes</p>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Intermedio A</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>16:15pm</p>
+                        <p>17:30pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Principiantes</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>17:30pm</p>
+                        <p>18:30pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Intermedio B</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>18:30pm</p>
+                        <p>19:45pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Avanzado</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>19:30pm</p>
+                        <p>20:45pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>Martes</p>
+                    
+                </div>
+                <div>
+                    <p>Miércoles</p>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Intermedio A</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>16:15pm</p>
+                        <p>17:30pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Principiantes</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>17:30pm</p>
+                        <p>18:30pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Intermedio B</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>18:30pm</p>
+                        <p>19:45pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Avanzado</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>19:30pm</p>
+                        <p>20:45pm</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p>Jueves</p>
+                    
+                </div>
+                <div>
+                    <p>Viernes</p>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Avanzado</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>15:30pm</p>
+                        <p>17:00pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Intermedio</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>15:30pm</p>
+                        <p>17:00pm</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card">
+                        <div class="glassmorphism-effect">
+                        <p>Adultos</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>17:15pm</p>
+                        <p>18:30pm</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <p>Sabado</p>
+                    <div class="card margin-bottom-card sabado">
+                        <div class="glassmorphism-effect">
+                        <p>Avanzado</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>10:00am</p>
+                        <p>13:00am</p>
+                        </div>
+                    </div>
+                    <div class="card margin-bottom-card sabado">
+                        <div class="glassmorphism-effect">
+                        <p>Intermedio A Y B</p>
+                        </div>
+                        <div class="glassmorphism-effect">
+                        <p>9:45am</p>
+                        <p>12:50am</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            </section>
+        </div>
+        <title>Document</title>
+    </section>
+     <!-- inicio footer -->
+     <footer>
+        <br>
+        <p>
+            Derechos reservados @2020
+        </p> 
+        <div class="flexicon">
+        <i class='bx bxl-facebook-circle bx-sm'></i>
+        <i class='bx bxl-instagram bx-sm' ></i>
+        </div>
+        
+    </footer>   
+    
+</body>
+</html>
