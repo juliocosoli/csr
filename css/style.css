@@ -121,8 +121,8 @@ nav{
     position:sticky;
     top: 0;
     right: 0;
-    /*z-index: 100;
-    position: fixed;
+    z-index: 100;
+    /*position: fixed;
     width: 100%;*/
     
 }
@@ -209,6 +209,7 @@ footer{
     width: 100%;
     background: rgb(84,78,194);
     background: linear-gradient(90deg, rgba(84,78,194,1) 0%, rgba(171,255,125,1) 64%, rgba(122,232,255,1) 100%);
+    
 
 }
 
