@@ -143,7 +143,8 @@ padding: 10%;
     margin-right: 2em;
     align-self: center;
     width: 40%;
-    height: auto;
+    height: auto; 
+    
 }
 
 .color{
@@ -260,16 +261,25 @@ label {
     grid-column: col ;
     grid-row: row 2;
     align-items: center;
+    object-fit: cover;
+    width: 100%;
+    height: auto
   }
 
 .img-center {
-grid-column: col 1 ;
-grid-row: row 3 ;
+    grid-column: col 1 ;
+    grid-row: row 3 ;
+    object-fit: cover;
+    width: 100%;
+    height: auto
 }
 
 .img-derecha {
     grid-column: col 3 ;
     grid-row: row 4 ;
+    object-fit: cover;
+    width: 100%;
+    height: auto
 }
 
 
@@ -289,6 +299,7 @@ grid-row: row 3 ;
     grid-column: col  / span 2 ;
     grid-row: row 4;
 }
+
 
   /*FIN DEL GRID*/
 
@@ -406,7 +417,7 @@ li a:hover{
     color: white;
 } 
   
-  @media (max-width: 740px) {
+  @media (max-width: 760px) {
     .menu-button-container {
       display: flex;
     }
