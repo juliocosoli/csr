@@ -42,11 +42,15 @@ El documento lo inicie con !+(TAB) y se configura solo-->
         <!--Inicia el menu de navegacion-->
         
     </header>
-    <nav> 
-        <ul class="menuizquierda">
-            <li><samp id="csr">CsR</samp></li>
-        </ul>
-        <ul class="menuderecha">
+    <nav class="top-nav"> 
+        <div>
+            CsR
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
             <li ><a href="index.html">Inicio</a></li>
             <li ><a href="quienes_somos.html">Quienes somos</a></li>
             <li ><a href="horarios.html">Horario</a></li>
@@ -57,10 +61,11 @@ El documento lo inicie con !+(TAB) y se configura solo-->
     
     </aside>
     <section class="calendario">
-        <div class="bubble bubble-two glassmorphism-effect"></div>
-        <div class="bubble bubble-three glassmorphism-effect"></div>
-        <div class="bubble bubble-four glassmorphism-effect"></div>
+        
         <div class="container glassmorphism-effect padding-box">
+            <div class="bubble bubble-two glassmorphism-effect"></div>
+            <div class="bubble bubble-three glassmorphism-effect"></div>
+            <div class="bubble bubble-four glassmorphism-effect"></div>
             <section class="glassmorphism-effect padding-box">
             <div class="title">
                 <p>Objetivos</p>
