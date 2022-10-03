@@ -1,0 +1,187 @@
+
+/* asignamos color de fondo y grid para todo calendario */
+.calendario {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  place-items: center;
+  
+}
+
+/*efecto para la transparencia en circulos y grid*/
+.glassmorphism-effect {
+  background: rgba( 255, 255, 255, 0.10 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  -webkit-backdrop-filter: blur( 4px );
+          backdrop-filter: blur( 4px );
+  border-radius: 16px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+/*section y aside dentro del grid*/
+.padding-box {
+  box-sizing: border-box;
+  padding: 24px;
+}
+/*margen entre las card*/
+.margin-bottom-card {
+  margin-bottom: 20px;
+}
+
+.title p:first-child {
+  font-size: 28px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.title p:last-child {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-gap: 20px;
+  /*height: 90%;*/
+  width: 100%;
+  position: relative;
+  
+}
+
+@media (max-width:640px){
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* aside */
+.goals:hover{
+    cursor: pointer;
+}
+.goals {
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+.goals p{
+    margin: auto 0 auto 0;
+}
+
+.goals div {
+  align-items: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+}
+
+.goals img {
+  width: 30px;
+}
+
+/* Columnas dias de la semana */
+.main-content > div:nth-child(2) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+@media (max-width: 1000px){
+  .main-content > div:nth-child(2) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  /*height: 100px;*/
+  position: relative;
+  width: 100%;
+}
+
+@media (min-width: 1270px){
+  .card {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.card > div:first-child {
+  align-items: center;
+  border-radius: 16px;
+  display: flex;
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+  z-index: 1;
+}
+
+.card > div:first-child p {
+  color: white;
+  margin: 5px;
+  padding-right: 7px;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+}
+
+.card > div:last-child {
+  border-radius: 16px;
+  display: grid;
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  justify-content: center;
+  z-index: 2;
+}
+
+.card > div:last-child p:first-child {
+  /* font-size: 24px; */
+  font-weight: 600; 
+  margin: auto 0 0 0;
+}
+
+.card > div:last-child p:last-child {
+  margin: 0;
+}
+
+.bubble {
+  border-radius: 50%;
+  position: absolute;
+}
+
+.bubble-one {
+  height: 80px;
+  left: 300px;
+  top: 10px;
+  width: 80px;
+}
+
+.bubble-two {
+  height: 230px;
+  right: 200px;
+  /*top: -50px;*/
+  bottom: 20px;
+  width: 230px;
+}
+
+.bubble-three {
+  height: 50px;
+  right: 50px;
+  /*top: -20px;*/
+  width: 50px;
+}
+
+.bubble-four {
+  bottom: 40px;
+  height: 100px;
+  left: -30px;
+  width: 100px;
+}
+
+.m {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
