@@ -1,0 +1,172 @@
+<!-- Comentamos todo para poder entendernos. 
+    El documento lo inicie con !+(TAB) y se configura solo-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!--Fuentes de google-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+        
+        <!--Iconos-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="shortcut icon" href="images/patin.jpg" type="image/x-icon">
+        
+        <!-- Incluye CSS y JS de Bootstrap. 
+            CSS	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css
+            JS	https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js
+        -->
+        <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel='stylesheet'>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+        
+        
+        <!--Titulo del sitio para la barra del navegador-->
+        <title>Crecer sobre ruedas</title>
+       
+        <!--Cargamos un archivo style.css.  -->
+        <link rel="stylesheet" href="css/style.css">
+    
+        <!-- JavaScript Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    </head>
+    <body>
+        <!-- Inicia Header con menu de navegacion-->
+        <header>
+            
+            
+            
+                
+                <div class="contenedor-banner">
+                    <div class="contenedor-titulo">
+                        <h1 class="banner-titulo"> Crecer sobre Ruedas</h1>
+                    </div>
+                </div>
+            
+    
+            <!--Inicia el menu de navegacion-->
+            
+        </header>
+        <nav class="top-nav"> 
+            <div>
+                CsR
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+            </label>
+            <ul class="menu">
+                <li ><a href="index.html">Inicio</a></li>
+                <li ><a href="quienes_somos.html">Quienes somos</a></li>
+                <li ><a href="horarios.html">Horario</a></li>
+                <li ><a href="registro.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <aside>
+            
+        </aside>
+        <section>
+            <article>
+                <!-- services page block 1 -->
+                <section id="contact" class="w3l-apply-5" id="appointment">
+                    <!-- /apply-6-->
+                    <div class="apply-info py-5">
+                        <div class="container py-lg-5 py-sm-3">
+                            <div class="apply-grids-info row">
+                                <div class="apply-gd-left text-center col-lg-12">
+                                    <h2>Formulario de Contacto</h2>
+                                        
+                        <div class="apply-form p-sm-5 p-4">
+                                    
+                                        <form id="contact-form" action="new.php"  method="post" data-toggle="validator">
+                                            <div class="admission-form">
+                                                <div class="row g-3">
+                                                    <div class="col">
+                                                      <input type="text" name="first" class="form-control" placeholder="First name" aria-label="First name">
+                                                    </div>
+                                                    <div class="col-md-6">
+                                                      <input type="text" name="last" class="form-control" placeholder="Last name" aria-label="Last name">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md">
+                                                    <label for="inputEmail4" class="form-label mgt">Email</label>
+                                                    <input type="email" name="email" class="form-control" id="inputEmail4">
+                                                  </div>
+                                                  <label for="inputEmail4" class="form-label mgt">¿Donde nos conocio?</label>
+                                                <div class="check-flex mgt" name="select">
+                                                   
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                                        <label class="form-check-label" for="flexCheckDefault">Instagram</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">Facebook</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">Pagina web</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">Publicidad barrial</label>
+                                                    </div>
+                                                    <div class="form-check">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                                        <label class="form-check-label" for="flexCheckChecked">Recomendación</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-floating">
+                                                <textarea class="form-control" name="content" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                                                <label for="floatingTextarea">Comments</label>
+                                            </div>
+                                            <div class="check-flex mgt">
+                                                <input type="hidden" name="_template" value="table">
+                                                <input class="btn btn-primary submit g-recaptcha" type="submit" value="Enviar">
+                                            </div>
+                                            
+                                        </form>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </article>
+
+            <article class="color form">
+
+                
+                  <iframe src="https://forms.gle/rokEkgeWpKNZZg8k9"  frameborder="0" width="100%" height="100%"></iframe>
+               
+            </article>
+            <article>
+                <h2>Ubicacion</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0609986697054!2d-58.01811980000001!3d-34.90491869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dd834dd3514b%3A0x55cdf729eb2eb469!2sCentro%20de%20Fomento%20Social%20y%20Deportivo%20Jos%C3%A9%20Hern%C3%A1ndez!5e0!3m2!1ses-419!2sar!4v1661284856443!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            </article>
+    
+        
+        <!-- inicio footer -->
+        <footer>
+            <br>
+            <p>
+                Derechos reservados @2020
+            </p> 
+            <div class="flexicon">
+            <i class='bx bxl-facebook-circle bx-sm'></i>
+            <i class='bx bxl-instagram bx-sm' ></i>
+            </div>
+            
+        </footer>   
+    
+    </html>

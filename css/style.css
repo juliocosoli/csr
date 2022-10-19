@@ -169,7 +169,7 @@ footer p{
 form {
     /* Centrar el formulario en la página */
     margin: 0 auto;
-    width: 50%;
+    width: 100%;
     /* Esquema del formulario */
     padding: 1em;
     border: 1px solid black;
@@ -187,12 +187,12 @@ form p {
     margin: 0.5em;
 }
 
-label {
+ label {
     /* Tamaño y alineación uniforme */
     display: inline-block;
-    width: 90px;
+    /* width: 90px; */
     text-align: right;
-}
+} 
 
 
 .flexicon {
@@ -463,4 +463,26 @@ li a:hover{
     }
   }
 
+  .slide{
+    width: 70%;
+    margin: auto;
+  }
+
+  .form{
+    height: 4300px;
+  }
   
+  .check-flex{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  @media (max-width: 1000px) {
+    .check-flex{
+      display:block;
+     
+    }
+  }
+  .mgt{
+    margin-top: 10px;
+  }
