@@ -4,8 +4,12 @@
     text-align: justify;
     box-sizing: border-box;
     font-family: 'Quattrocento Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
+html{
+  scroll-behavior: auto;
+}
 :root{
     font-size: 22px;
 }
@@ -109,7 +113,7 @@ p{
 article{
     
 /* display: block; */
-padding: 10%;
+padding: 5%;
 
 }
 
