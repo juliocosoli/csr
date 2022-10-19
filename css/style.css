@@ -56,9 +56,9 @@ body{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6735f', endColorstr='#c8f9cc', GradientType=1 );
 
     border-radius: 10px;
-	font-weight: bold;
-	position: relative;
-	overflow: hidden;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
     
 }
 
