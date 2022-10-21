@@ -147,6 +147,14 @@ padding: 5%;
   width: 40%;
 }
 
+.fw-200{
+  width: 300px;
+}
+
+.float{
+  margin:10px; 
+  float:left;
+}
 
 .img{
     
@@ -426,7 +434,9 @@ li a:hover{
     .flex-img{
       width: auto;
     }
-
+    .contenedor{
+      display: inline;
+    }
 
 
     .menu-button-container {
@@ -502,3 +512,16 @@ li a:hover{
   .mgt{
     margin-top: 10px;
   }
+
+
+  /*Loading page*/
+.jm-loadingpage {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 999999999;
+  background: url(images/loadingpage.gif) center no-repeat #fff;
+}
+/*Loading page*/
