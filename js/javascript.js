@@ -1,3 +1,11 @@
+function scroll_inicio(){
+    document.querySelector('#inicio').scrollIntoView({ 
+        behavior: 'smooth' 
+      });
+}
+
+
+
 
 function todosLosDias(){
     

@@ -8,6 +8,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <!--Fuentes de google-->
+        
+
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Codystar&family=Quattrocento+Sans&display=swap" rel="stylesheet">
@@ -29,6 +31,7 @@
        
         <!--Cargamos un archivo style.css.  -->
         <link rel="stylesheet" href="css/style.css">
+        <script src="js/javascript.js"></script>
     
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
@@ -36,7 +39,7 @@
         <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     </head>
-    <body>
+    <body onload="scroll_inicio()">
         <!-- Inicia Header con menu de navegacion-->
         <header>
             
@@ -71,18 +74,18 @@
         <aside>
             
         </aside>
-        <section>
-            <article>
+        <section id="inicio">
+            <article >
                 <!-- services page block 1 -->
                 <section id="contact" class="w3l-apply-5" id="appointment">
                     <!-- /apply-6-->
-                    <div class="apply-info py-5">
+                    <div class="apply-info">
                         <div class="container py-lg-5 py-sm-3">
                             <div class="apply-grids-info row">
                                 <div class="apply-gd-left text-center col-lg-12">
                                     <h2>Formulario de Contacto</h2>
                                         
-                        <div class="apply-form p-sm-5 p-4">
+                                    <div class="apply-form p-sm-5 p-4">
                                     
                                         <form id="contact-form" action="new.php"  method="post" data-toggle="validator">
                                             <div class="admission-form">
@@ -97,8 +100,8 @@
                                                 <div class="col-md">
                                                     <label for="inputEmail4" class="form-label mgt">Email</label>
                                                     <input type="email" name="email" class="form-control" id="inputEmail4">
-                                                  </div>
-                                                  <label for="inputEmail4" class="form-label mgt">¿Donde nos conocio?</label>
+                                                </div>
+                                                <label for="inputEmail4" class="form-label mgt">¿Donde nos conocio?</label>
                                                 <div class="check-flex mgt" name="select">
                                                    
                                                     <div class="form-check">
@@ -106,20 +109,20 @@
                                                         <label class="form-check-label" for="flexCheckDefault">Instagram</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                         <label class="form-check-label" for="flexCheckChecked">Facebook</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                         <label class="form-check-label" for="flexCheckChecked">Pagina web</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                         <label class="form-check-label" for="flexCheckChecked">Publicidad barrial</label>
                                                     </div>
                                                     <div class="form-check">
-                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-                                                        <label class="form-check-label" for="flexCheckChecked">Recomendación</label>
+                                                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                                     </div>
                                                 </div>
                                             </div>
@@ -149,11 +152,12 @@
             </article>
 
             <article class="color">
+                
                 <h2>Ubicacion</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0609986697054!2d-58.01811980000001!3d-34.90491869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dd834dd3514b%3A0x55cdf729eb2eb469!2sCentro%20de%20Fomento%20Social%20y%20Deportivo%20Jos%C3%A9%20Hern%C3%A1ndez!5e0!3m2!1ses-419!2sar!4v1661284856443!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.0609986697054!2d-58.01811980000001!3d-34.90491869999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2dd834dd3514b%3A0x55cdf729eb2eb469!2sCentro%20de%20Fomento%20Social%20y%20Deportivo%20Jos%C3%A9%20Hern%C3%A1ndez!5e0!3m2!1ses-419!2sar!4v1661284856443!5m2!1ses-419!2sar" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </article>
     
-        
+        </section>
         <!-- inicio footer -->
         <footer>
             <br>
@@ -166,5 +170,6 @@
             </div>
             
         </footer>   
-    
-    </html>
+
+    </body>
+</html>
