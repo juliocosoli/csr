@@ -488,22 +488,19 @@ li a:hover{
       border-bottom: 1px solid #444;
     }
   }
-
+/* Carousel centrado y al 70% del espacio disponible */
   .slide{
     width: 70%;
     margin: auto;
   }
-
-  .form{
-    height: 4300px;
-  }
-  
+  /* check del formulario "Donde nos conocio" Flex por defecto es Vertical */
   .check-flex{
     display: flex;
     justify-content: space-between;
   }
 
   @media (max-width: 1000px) {
+    /* check del formulario "Donde nos conocio" Horizontal */
     .check-flex{
       display:block;
      
