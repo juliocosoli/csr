@@ -23,7 +23,7 @@ const API_URL = 'https://jsonplaceholder.typicode.com';
 const HTMLResponse = document.querySelector('#app');
 const ul = document.createElement('ul');
 const h2 = document.createElement('h2');
-h2.appendChild(document.createTextNode('Patinadoras anotadas'));
+h2.appendChild(document.createTextNode(' Patinadores anotados'));
 ul.appendChild(h2);
 ul.classList.add('list-group');
 
