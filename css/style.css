@@ -1,4 +1,4 @@
- /* todos los elementos */
+hover /* todos los elementos */
 *{
     margin: 0;
     padding: 0;
@@ -522,3 +522,7 @@ li a:hover{
   background: url(images/loadingpage.gif) center no-repeat #fff;
 }
 /*Loading page*/
+
+p, div.bloque {
+  margin-bottom: 25px; 
+}

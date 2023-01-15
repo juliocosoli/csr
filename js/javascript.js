@@ -33,4 +33,7 @@ function limpiar() {
         console.log (y[i])
     }
   };
+
+
+  console.log( Number(""));
   
